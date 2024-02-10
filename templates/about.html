@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/home.css')}}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .container{
+            padding: 7px;
+            margin-top: 20px;
+        }
+        h3{
+            margin: 15px;
+             
+        }
+        p{ 
+            
+            height: auto;
+            width: auto;
+            padding: 10px;
+            margin: 15px;
+            text-align: center;
+            border: 3px solid black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="bg-bac">
+    
+  <nav class="navbar navbar-expand-lg bg-bac">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/"><b>TDL</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/"><b>Home</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="/about"><b>AboutUs</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/view-list"><b>View List</b></a>
+          </li>
+        </ul>
+        <form action="/profile" method="post"  class="d-flex" style="margin-right: 5px;" role="profile" >
+            <button class="btn btn-outline-success" type="submit" name="Profile" ><b>Profile</b></button>
+        </form>
+        <form action='/login'   class="d-flex" style="margin-right: 2px;" role="login" >
+            <button class="btn btn-outline-success" type="login" name="login"><b>Login</b></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+    <div class="container">
+        <div class="container">
+
+            <h3>What Is To-Do-List:</h3> 
+            <p>
+            
+                To-do lists are indispensable tools for organizing tasks, enhancing productivity, and managing time effectively. They offer clarity and structure, aiding individuals in staying focused on their goals and priorities.
+                
+            </p>
+        </div>
+
+        <div class="container">
+
+            
+            
+            
+            <h3>Productivity Boosters:</h3>
+            <p>
+                
+                By breaking down tasks into actionable items, to-do lists facilitate productivity by providing a clear roadmap for achieving objectives. Crossing off completed tasks fosters a sense of accomplishment, motivating continued progress.
+            </p>
+            
+        </div>
+
+        <div class="container">
+
+            <h3>
+                
+                Organization and Focus:
+            </h3>
+            <p>
+                
+                To-do lists promote organization by ensuring tasks are documented and prioritized. With a visual representation of tasks, individuals can allocate time efficiently, reducing the likelihood of forgetting important responsibilities or deadlines.
+            </p>
+        </div>
+
+        <div class="container">
+
+            
+            <h3>
+                
+                Reminders and Time Management:
+            </h3>
+            <p>
+                
+                To-do lists serve as valuable reminders, helping users stay on track with deadlines and appointments. They aid in better time management by allowing individuals to allocate their time wisely across various tasks and commitments.
+            </p>
+        </div>
+
+
+
+<div class="container">
+
+    <h3>
+        
+        Efficiency and Balance:
+    </h3>
+    <p>
+        
+        Integrating to-do lists into daily routines promotes efficiency and balance. By managing tasks effectively, individuals can optimize their productivity while maintaining a healthy work-life balance, leading to overall well-being and success.
+    </p>
+</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

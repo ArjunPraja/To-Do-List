@@ -1,0 +1,60 @@
+.bg-bac{
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.bg-white{
+    margin-top: 35px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(230, 228, 225);
+}
+.submit{
+    
+    
+        display: block; /* Ensure the button takes up the full width of the container */
+        margin: 0 auto; /* Set left and right margins to auto */
+        width: 200px; /* Set a fixed width for the button */
+        border-radius: 10px;
+        background-color: rgb(219, 27, 27);
+}
+.ta{
+    margin-top: 50px;
+    height: 100%;
+    width: 100%;
+    margin:  10px;
+    padding: 10px;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* border: 2px solid black;
+    border-color: black;
+    border-radius: 20px;
+    margin-top:20px; */
+    text-align: center;
+}
+.t{
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* border: 2px solid black;
+    border-color: black;
+    border-radius: 20px;
+      */
+     
+}
+
+
+.x{
+    /* border: 2px solid black;
+    border-radius: 10px; */
+    margin: 5px;
+    padding: 17px;
+}
